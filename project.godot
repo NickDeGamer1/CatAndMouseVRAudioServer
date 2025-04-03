@@ -14,9 +14,11 @@ config/name="Cat And Mouse VR Audio Server"
 run/main_scene="uid://mb7e3bxtql66"
 config/features=PackedStringArray("4.4", "Forward Plus")
 boot_splash/show_image=false
-config/icon="res://icon.svg"
+config/icon="uid://thc6lbmo2sci"
+config/windows_native_icon="res://CatIcon.ico"
 
 [display]
 
 window/size/viewport_width=320
 window/size/viewport_height=240
+window/size/resizable=false
