@@ -14,7 +14,9 @@ func _process(_delta: float) -> void:
 	
 	if client and client.get_available_bytes() > 0:
 		var recieved = client.get_string(client.get_available_bytes())
-		if recieved == "PlayAudio":
+		print(recieved.substr(10))
+		if recieved.left(10) == "PlayAudio:":
+			$AudioStreamPlayer2D.stream = load("res://Audio/" + recieved.substr(10))
 			$AudioStreamPlayer2D.play()
 		elif recieved == "EndAudio":
 			get_tree().quit()
