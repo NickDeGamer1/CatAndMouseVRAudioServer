@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://mb7e3bxtql66"]
+
+[ext_resource type="Script" uid="uid://cpxrprpaucbpm" path="res://Scenes/audio_server.gd" id="1_5mshm"]
+[ext_resource type="AudioStream" uid="uid://ysm2nqx33lw5" path="res://Audio/yohabaB.wav" id="2_mq18d"]
+
+[node name="AudioServer" type="Control"]
+layout_mode = 3
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_5mshm")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_mq18d")
