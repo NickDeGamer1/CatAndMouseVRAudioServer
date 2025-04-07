@@ -21,3 +21,7 @@ func _process(_delta: float) -> void:
 			$AudioStreamPlayer2D.play()
 		elif recieved == "EndAudio":
 			get_tree().quit()
+
+
+func _on_button_pressed() -> void:
+	pass # Replace with function body.
