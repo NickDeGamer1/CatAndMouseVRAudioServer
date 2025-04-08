@@ -34,7 +34,6 @@ func PlayAudio(inp):
 		$AudioStreamPlayer2D4.stream = load(inp)
 		$AudioStreamPlayer2D4.play()
 	
-		
 
 func _on_button_pressed() -> void:
 	$AudioStreamPlayer2D.stream = load("res://Audio/Cat" + str(randi_range(1,4)) +  ".wav")#OS.get_executable_path() + "/../Cat1.wav")
