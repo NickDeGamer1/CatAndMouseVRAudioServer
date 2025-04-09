@@ -25,6 +25,12 @@ stream = ExtResource("2_mq18d")
 [node name="AudioStreamPlayer2D4" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("2_mq18d")
 
+[node name="AudioStreamPlayer2D5" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_mq18d")
+
+[node name="Music" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_mq18d")
+
 [node name="TvAudio" type="Sprite2D" parent="."]
 position = Vector2(160, 120)
 texture = ExtResource("3_hv5n1")
